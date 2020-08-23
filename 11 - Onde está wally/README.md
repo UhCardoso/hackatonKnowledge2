@@ -6,7 +6,7 @@ Crie uma função que retorne as coordenadas ([linha, col]) do elemento que dife
 Exemplo:
 
 onde_esta_wally([
-  ["A", "A", "A"],
-  ["A", "A", "A"],
-  ["A", "B", "A"]
+  ["A", "A", "A"],<br>
+  ["A", "A", "A"],<br>
+  ["A", "B", "A"]<br>
 ]) ➞ [3, 2]
