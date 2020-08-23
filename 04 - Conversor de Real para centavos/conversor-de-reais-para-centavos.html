@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conversor de Reais para Centavos</title>
+	<script src="conversor-de-reais.js"></script>
+	<style type="text/css">
+		body {
+			background-color: #FFE4C4;
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		label {
+			font-size: 1.5em;
+		}
+
+		input {
+			font-size: 1.5em;
+			margin: 10px 0;
+			border-radius: 10px;
+		}
+
+		#caixa {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Conversor de Dinheiro</h1>
+	<div id="caixa">
+		<label for="valor-real">R$</label>
+		<input type="text" id="valor-real" placeholder="digite o valor em reais" onkeyup="converterReal(this.value)" /><br/>
+		<label for="valor-centavos">Centavos</label>
+		<input type="Text" id="valor-centavos" placeholder="digite o valor em centavos" onkeyup="converterCentavos(this.value)" />
+	</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ordernar Alturas</title>
+	<script src="ordenar-alturas.js"></script>
+	<style>
+		body {
+			background-color: #FFE4C4;
+		}
+
+		#caixa {
+			font-size: 1.5em;
+			background-color: #B0E0E6;
+			width: 500px;
+			text-align: center;
+			margin: 0 auto;
+			border-radius: 10px;
+		}
+
+		button {
+			margin: 10px 0;
+			background-color: #0000CD;
+			color: white;
+			padding: 5px;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: white;
+			color: #0000CD;
+		}
+
+		#result {
+			font-size: 1.5em;
+			width: 50%;
+			text-align: center;
+			background-color: gray;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="caixa">
+		<label for="num-alturas">Quantas alturas você deseja inserir?</label>
+		<input type="number" id="num-alturas" / style="width:50px;">
+		<button onclick="criarInputs()">iniciar</button>
+	</div>
+</body>
+</html>

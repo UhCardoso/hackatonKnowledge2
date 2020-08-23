@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Rimas</title>
+		<script src="rimas.js"></script>
+		<style>
+			body {
+				background-color: #836FFF;
+			}
+
+			h1 {
+				text-align: center;
+			}
+
+			#conteudo {
+				border: 2px solid white;
+				border-radius: 10px;
+				width: 80%;
+				padding: 20px;
+				text-align: center;
+				background-color: #F0E68C;
+				margin: 0 auto;
+			}
+
+			input {
+				border-radius: 5px;
+				margin: 5px 0;
+				padding: 5px;
+			}
+
+			button {
+				margin: 10px 0;
+				background-color: #0000CD;
+				color: white;
+				padding: 5px;
+				border-radius: 10px;
+				cursor: pointer;
+			}
+
+			button:hover {
+				background-color: white;
+				color: #0000CD;
+			}
+
+			#result {
+				margin: 0 auto;
+				width: 50%;
+				color: white;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Verificador de Rimas</h1>
+		<div id="conteudo">
+			<input id="frase1" placeholder="Digite a frase 1" type="text"/><br/>
+			<input id="frase2" placeholder="Digite a frase 2" type="text"/><br/>
+			<button onclick="verificar()">Verificar frases</button>
+			<div id="result">
+				
+			</div>
+		</div>
+	</body>
+</html>

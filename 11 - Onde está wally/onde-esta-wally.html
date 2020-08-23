@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Onde está wally?</title>
+	<script src="onde-esta-wally.js"></script>
+	<style>
+		body {
+			background-color: #FFE4C4;
+		}
+
+		#matriz {
+			margin: 0 auto;
+			text-align: center;
+			background-color: white;
+			width: 300px;
+			font-size: 1.5em;
+		}
+
+		#area-botao {
+			text-align: center;
+		}
+
+		button {
+			margin: 10px 0;
+			background-color: #0000CD;
+			color: white;
+			padding: 5px;
+			border-radius: 10px;
+			cursor: pointer;
+			font-size: 1.5em;
+		}
+
+		button:hover {
+			background-color: white;
+			color: #0000CD;
+		}
+
+		#result {
+			margin: 0 auto;
+			width: 50%;
+			text-align: center;
+			background-color: gray;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div id="matriz">
+		["O", "O", "O", "O"]<br/>
+  		["O", "O", "O", "O"]<br/>
+  		["O", "O", "O", "O"]<br/>
+  		["O", "O", "O", "O"]<br/>
+  		["P", "O", "O", "O"]<br/>
+  		["O", "O", "O", "O"]<br/>
+	</div>
+	<div id="area-botao">
+		<button onclick="mostrarPosicao()">Mostar posição</button>
+	</div>
+	<div id="result">
+		
+	</div>
+</body>
+</html>
