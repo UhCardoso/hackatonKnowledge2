@@ -5,7 +5,7 @@ Crie uma função que retorne as coordenadas ([linha, col]) do elemento que dife
 
 Exemplo:
 
-onde_esta_wally([
+onde_esta_wally([<br>
   ["A", "A", "A"],<br>
   ["A", "A", "A"],<br>
   ["A", "B", "A"]<br>
